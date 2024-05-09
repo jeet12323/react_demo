@@ -79,6 +79,7 @@ function App() {
   else if((darkMode ==='light'|| darkMode ==`${cls}`)  && event.target.id==='green1')
   {  removeBody();
     setDarkMode('green');
+    // Jenkins 
     console.log(darkMode)
   document.body.style.backgroundColor='green';
   showAlert("green mode is enabled","success");
